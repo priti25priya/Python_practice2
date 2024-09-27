@@ -1,4 +1,5 @@
-# Inheritance: Inheritance is the capability of one class to derive or inherit the properties from another class.
+# Inheritance: Inheritance is the capability of one class to derive or inherit
+# the properties from another class.
 
 class Person(object):
 
@@ -46,7 +47,8 @@ x = Child("Hello, and welcome!")
 
 x.printmessage()
 
-# Multiple Inheritance: When a class is derived from more than one base class it is called multiple Inheritance.
+# Multiple Inheritance: When a class is derived from more than one base class it
+# is called multiple Inheritance.
 class Mammal:
     def mammal_info(self):
         print("Mammals can give direct birth.")
